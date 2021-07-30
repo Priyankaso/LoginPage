@@ -1,0 +1,179 @@
+.compnyHeading {
+    
+    font-size: 40px;
+    }
+  
+    .full-width {
+    width: 100%;
+    }
+    .button_display {
+   
+    -moz-border-radius: 21px 21px 21px;
+    border-radius: 21px 21px 21px;
+    background-color: #1A237E ;
+    }
+    .container{
+ 
+    padding-left:10px;
+    padding-right:10px;
+    width:52%;
+    height:373px;
+    
+    margin-top:10px;
+    padding-bottom:0px;
+    box-shadow: 18px 30px 20px #B5BCC4;
+    }
+   
+    
+    #col_1{
+   
+    height: 360px; 
+    margin: 0px;
+    padding: 0px;
+    
+     
+    }
+   
+
+   
+    #col_2{
+   
+    background-image: linear-gradient(white 50%, #95D6E3);
+    height: 360px;
+    margin: 0px;
+     
+     
+    }
+    @media screen and (max-width: 600px){
+          #col_2{
+   
+    background-image: linear-gradient(white 50%,#95D6E3);
+    height: 395px;
+     
+    }
+    }
+    #form_row{
+   
+    
+    margin-top:0px;
+    height:350px;
+    }
+    .responsive{
+        width:100%;
+        height:auto;
+    }
+    video{
+       
+        
+          height: 360px;
+             width: 95.5%;
+             object-fit: fill;
+    }
+    @media screen and (max-width:600px) {
+
+            video{
+          height: 350px;
+             width: 92.3%;
+             object-fit: fill;
+    }
+   
+    }
+
+    @media screen and (max-width:600px){
+      mat-card{
+        height: 700px;
+      }
+
+    }
+
+     
+    input{
+    border:1px solid #0051b3;
+    height:30px;
+    border-radius:20px;
+    padding-left: 5rem;
+  
+  }
+  input[type=email]:focus{
+     
+    outline:red;
+    background-color: white;
+    
+    margin-left: 20px;
+  }
+  #email:active{
+      outline:none;
+      border:none;
+  }
+ 
+ 
+  
+  .top-input{
+    width: 100%;
+  }
+ 
+  small{
+    font-size:10px;
+  }
+
+  .checkbox-text{
+    line-height:10px;
+    font-size:14px;
+  }
+  .checkbox-text input{
+    margin-bottom: -100px;
+  
+  }
+  
+  #email{
+      padding-left: 8px;
+     width: 90%;
+     margin-left: 2px;
+     font-size: 11px;
+     border:0.01px solid rgb(224, 220, 220);
+     cursor:pointer;
+
+      
+  }
+  
+
+  #password{
+      width: 90%;
+      margin-left: 2px;
+      padding-left: 8px;
+      font-size: 11px;
+      border:0.01px solid rgb(224, 220, 220);
+      cursor:pointer;
+  }
+
+ 
+
+  
+ 
+  #password_input{
+      margin-top: 0px;
+  }
+   #email_input{
+      margin-bottom: 0px;
+      
+  }
+
+    button{
+    background-color: #162655;
+    border-radius: 25px;
+    width: 96%;
+     height: 33px;
+     margin-left: 2px;
+     box-shadow: 5px 5px 5px #B5BCC4;
+     bottom: 10px;
+     text-align: center;
+     justify-content: center;
+     color:#95D6E3;
+
+   
+  }
+
+  .required:after {
+    content:" *";
+    color: grey;
+  }
